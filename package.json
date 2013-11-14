@@ -1,0 +1,35 @@
+{
+  "name": "keep-alive",
+  "version": "0.1.0",
+  "description": "keep-alive is a node module for defining and executing a simple keep-alive policy",
+  "main": "./index",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cmilhench/keep-alive.git"
+  },
+  "author": "Colin Milhench <colin@milhen.ch> (http://milhen.ch/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmilhench/keep-alive/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  },
+  "keywords": [
+    "keepalive",
+    "keep-alive",
+    "keep",
+    "alive",
+    "idle",
+    "heroku"
+  ],
+  "directories": {
+    "test": "test"
+  }
+}
